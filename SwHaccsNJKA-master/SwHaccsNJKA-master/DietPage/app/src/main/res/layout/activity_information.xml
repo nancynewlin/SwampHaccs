@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.koenf.dietpage.Information">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/fish"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Information"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454"
+        app:srcCompat="@drawable/cow" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/oil2"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/veg"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="287dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="16dp"
+        android:text="The vegetarian diet is tailored to individuals who wish to shy away from meat from meat and their associative fats. Such diet is high in healthy green carbohydrates and utilizes beans and tofu and other high protein sources in replace of meat."
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="The non-specific diet follows USDA daily recommend allowances for the 3 major macromolecules (fats, carbohydrates and proteins), based on the individual’s age, weight and height. The diet follows no type specific meal choice and is recommend for anyone who is starting to diet."
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:text="The ketogenic diet is a strict high fat, moderate protein and low carbohydrate diet. It is used highly in weight loss and utilizes insulin sensitivity to allow the body to engage fat burning in a caloric deficit."
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:text="The Paleolithic diet is a modern fad diet requiring the sole or predominant consumption of foods presumed to have been the only foods either available or consumed by humans during the Paleolithic era"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+</android.support.constraint.ConstraintLayout>
